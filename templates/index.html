@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link service</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header">
+        <h2>Link Service</h2>
+    </header>
+    <div class="form">
+        <form action="/add" method="POST">
+            <input type="text" name="url" placeholder="Enter URL">
+            <input type="submit" value="Create tiny URL">
+        </form>
+    </div>
+    <div class="info">
+        {{ info|raw  }}
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twig/twig": "^3.3",
+        "gabordemooij/redbean": "^5.7",
+        "go/db": "^2.2"
+    }
+}
